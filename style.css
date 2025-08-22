@@ -1,0 +1,318 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(58, 58, 174);
+    color: white;
+}
+.personalInformation {
+    display: flex;
+    gap: 2rem;
+    border-right: 2px solid white;
+}
+.information {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+}
+.premium {
+    color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo-sathapana {
+    display: flex;
+    width:auto;
+    height: 600px;
+    justify-content: space-around;
+    background-image: url("assets/image copy 7.png");
+    position: relative;
+}
+.container {
+    display: flex;
+    gap: 4rem;
+    color: white;
+    font-weight: bold;
+
+}
+.container .fa-solid  {
+    font-size: 2rem;
+    color: white;
+}
+.decrition {
+    position: absolute;
+    color: white;
+    top: 15rem;
+    left: 15rem;
+}
+.sathapana {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.sathapana-service {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    position: absolute;
+    bottom: 1rem;
+    left: 15rem;
+    gap: 1rem;
+    color: rgba(2, 119, 221, 0.618);
+    margin: 1rem ;
+    
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banking-decribe {
+    padding: 2rem;
+    background-image: url("assets/image copy 19.png");
+    height: 800px;
+
+}
+.detail {
+    display: flex;
+    font-size: 2.5rem;
+    gap: 1rem;
+    font-weight: bold;
+    line-height: 1px;
+    padding-left: 7rem;
+    
+}
+.editing {
+    color: rgba(2, 119, 221, 0.618);
+}
+.editsize {
+    font-size: 1.2rem;
+    padding-left: 7rem;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.both-image {
+    display: flex;
+    justify-content: center;
+}
+
+.both-image li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.women-business {
+    display: flex;
+    font-size: 2.5rem;
+    gap: 1rem;
+    line-height: 1px;
+    padding-left: 9rem;
+}
+.women {
+    color: rgba(2, 119, 221, 0.618); 
+}
+.Business {
+    color: rgba(1, 0, 84, 0.618);
+}
+.support {
+    font-size: 1.2rem;
+    padding-left: 9rem;
+    color: rgb(180, 180, 235);
+}
+.introduce {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between
+}
+
+.impowering{
+   font-size: 2.5rem;
+   padding-right: 10rem;
+
+}
+.impowering li {
+    list-style: none;
+}
+.edite{
+    color: rgba(2, 119, 221, 0.618); ;
+}
+.lern {
+    background-color: brown;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.give-back{
+    display: flex;
+    font-size: 2.5rem;
+    gap: 1rem;
+    line-height: 1px;
+    padding-left: 9rem;
+}
+.giving {
+    color: rgba(2, 119, 221, 0.618); 
+}
+.back{
+    color: rgba(1, 0, 84, 0.618);
+}
+.making {
+    font-size: 1.2rem;
+    padding-left: 9rem;
+    color: rgb(120, 120, 165);
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image-2{
+    display: flex;
+    justify-content: center;
+}
+.image-2 li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(87, 87, 163);
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.promotion-information {
+    background-color: rgb(17, 17, 138);
+    width: auto;
+    height: 750px;
+}
+.Promotion {
+    font-size: 2.5rem;
+    color: rgb(71, 71, 255);
+    font-weight: bold;
+    padding-left: 7rem;
+    list-style: none;
+    position: relative;
+}
+.detail-Promotion{
+    font-size: 1.3rem;
+    color: rgb(239, 239, 245);
+    padding-left: 7rem;
+    list-style: none;
+}
+.image-promotion {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.view{
+    background-color: brown;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    position: absolute;
+    left: 10rem;
+}
+.ending {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.832);
+    width: auto;
+    height: 250px;
+    gap: 3rem;
+    padding: 3rem 8rem;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+.service-sathapana {
+    color: white;
+    font-size: 13px;
+}
+.bank-service {
+    font-size: 1.3rem;
+    color: rgba(2, 119, 221, 0.618); 
+    font-weight: bold;
+}
+.two-line {
+    display: flex;
+    font-size: 13px;
+    gap: 3rem;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.832);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.endLine {
+    color: white;
+    font-weight: bold;
+}
+.circle-up {
+    font-size: 4rem;
+    position: absolute;
+    right: 8rem;
+    top: 10px;
+    color: rgb(68, 104, 194);
+    
+}
+.Subscribe-Newsletter {
+    font-size: 1.3rem;
+}
+.Subscribe {
+    display: flex;
+    position: absolute;
+    color: white;
+    right: 8rem;
+    bottom: 6rem;
+    gap: 2rem;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: rgb(20, 7, 210); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 1px 5px; /* Some padding */
+    border-radius: 360px; /* Rounded corners */
+    font-size: 3rem; /* Increase font size */
+    background-color: aliceblue;
+  }
+  
+  #myBtn:hover {
+    background-color: #de0a0a; /* Add a dark-grey background on hover */
+  }
